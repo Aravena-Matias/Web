@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Writeups de CTF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .index {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .writeups {
+            flex: 2;
+        }
+        .writeup {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            background-color: #fff;
+        }
+        .writeup:hover {
+            background-color: #f0f0f0;
+        }
+        .writeup h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .writeup p {
+            margin: 5px 0;
+        }
+        .description {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .description p {
+            font-style: italic;
+        }
+        .index ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .index li {
+            margin-bottom: 10px;
+        }
+        .index a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .index a:hover {
+            color: #666;
+        }
+        .page-index {
+            position: sticky;
+            top: 20px;
+            padding-left: 20px;
+            border-left: 1px solid #ccc;
+        }
+        .page-index ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .page-index li {
+            margin-bottom: 5px;
+        }
+        .page-index a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        .page-index a:hover {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Writeups de CTF</h1>
+    </header>
+    <div class="container">
+        <div class="index">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#writeup1">Nombre del Desafío 1</a></li>
+                <li><a href="#writeup2">Nombre del Desafío 2</a></li>
+                <!-- Agrega más elementos de lista para cada uno de tus writeups -->
+            </ul>
+        </div>
+        <div class="writeups">
+            <div class="description">
+                <p>¡Hola! Soy [Tu Nombre]. Estudio Ingeniería en Ciberseguridad y mi meta es convertirme en un SOC Analyst y Hacker Ético (Red Team / Blue Team).</p>
+            </div>
+            <div class="writeup" id="writeup1" onclick="window.location.href='URL_writeup_1';">
+                <h2>Nombre del Desafío 1</h2>
+                <p>Dificultad: Fácil</p>
+                <p>Ubicación: País/Región</p>
+            </div>
+            <div class="writeup" id="writeup2" onclick="window.location.href='URL_writeup_2';">
+                <h2>Nombre del Desafío 2</h2>
+                <p>Dificultad: Media</p>
+                <p>Ubicación: País/Región</p>
+            </div>
+            <!-- Agrega más divs .writeup para cada uno de tus writeups -->
+        </div>
+        <div class="page-index">
+            <h2>Índice de la Página</h2>
+            <ul>
+                <li><a href="#header">Encabezado</a></li>
+                <li><a href="#description">Descripción</a></li>
+                <li><a href="#writeup1">Nombre del Desafío 1</a></li>
+                <li><a href="#writeup2">Nombre del Desafío 2</a></li>
+                <!-- Agrega más elementos de lista para cada sección de tu página -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
